@@ -1,0 +1,5 @@
+separate list output of of residential apartments with more than 2 beds -
+
+using following command-
+
+$hadoop fs -cat /user/hive/warehouse/separate/type=Residential/beds=3/000000_0
